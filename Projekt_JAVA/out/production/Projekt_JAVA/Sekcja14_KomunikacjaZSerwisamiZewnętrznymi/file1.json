@@ -1,0 +1,9 @@
+{
+  "prawda_falsz": true,
+  "calkowita": 13,
+  "zmiennoprzecinkowa": 3.14,
+  "pusty": null,
+  "obiekt": {"e1": null},
+  "string": "hello",
+  "tablica": [true, false]
+}

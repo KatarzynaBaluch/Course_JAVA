@@ -1,0 +1,93 @@
+{
+    "naturalPerson": {
+      "personalData": {
+        "name": "Test",
+        "lastName": "Test",
+        "mothersMaidenName": "Test",
+        "maritalStatus": "MARRIED",
+        "education": "MIDDLE"
+      },
+      "contactData": {
+        "email": "test@test",
+        "phoneNumber": "456456456",
+        "corespondenceAddress": null,
+        "homeAddress": {
+          "street": "test",
+          "city": "test",
+          "houseNumber": "test",
+          "zipCode": "test",
+          "state": "test"
+        }
+      },
+      "financeData": {
+        "sourceOfIncomes": [
+          {
+            "incomeType": "SELF_EMPLOYMENT",
+            "netMonthlyIncome": 10000.0
+          }
+        ],
+        "expenses": [],
+        "numberOfIncomeSources": 1,
+        "sumOfExpenses": 0.0,
+        "sumOfMonthlyIncome": 10000.0
+      },
+      "familyMembers": [
+        {
+          "name": "John",
+          "birthDate": "2003-01-01",
+          "age": 18
+        },
+        {
+          "name": "Adam",
+          "birthDate": "2008-01-01",
+          "age": 13
+        },
+        {
+          "name": "Jane",
+          "birthDate": "2018-01-01",
+          "age": 3
+        }
+      ],
+      "pesel": "12312312312",
+      "incomePerFamilyMember": 2500.0,
+      "balance": 10000.0,
+      "familyMembersSortedByName": [
+        {
+          "name": "Adam",
+          "birthDate": "2008-01-01",
+          "age": 13
+        },
+        {
+          "name": "Jane",
+          "birthDate": "2018-01-01",
+          "age": 3
+        },
+        {
+          "name": "John",
+          "birthDate": "2003-01-01",
+          "age": 18
+        }
+      ],
+      "numOfFamilyDependends": 4
+    },
+    "selfEmployed": null,
+    "purposeOfLoan": {
+      "loanType": "MORTGAGE",
+      "amount": 100000.0,
+      "period": 30
+    },
+    "guarantors": [
+      {
+        "pesel": "12312312312",
+        "birthDate": "1976-01-01",
+        "age": 45
+      },
+      {
+        "pesel": "11312312312",
+        "birthDate": "1976-01-01",
+        "age": 45
+      }
+    ],
+    "clientTimeZone": "Europe/Warsaw",
+    "clientLocale": "pl_PL"
+  }
